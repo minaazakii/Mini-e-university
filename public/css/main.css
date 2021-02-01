@@ -1,0 +1,126 @@
+body
+{
+    background-image: url(/images/priscilla-du-preez-5s07Z1h2EE8-unsplash.jpg);
+    background-size: cover;
+}
+
+.navColor
+{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(20,9,38,1) 0%, rgba(107,84,108,1) 57%, rgba(21,12,44,1) 100%);
+}
+
+.input
+{
+    border-width: 0 0 2px 0;
+    border-color: rgb(63,94,251);
+}
+legend
+{
+    font-family: Caviar Dreams;
+    color: rgb(63,94,251);
+}
+.button
+{
+    border-width:2px 2px 2px 2px ;
+    border-color: rgb(63,94,251);
+    color: rgb(63,94,251);
+    background-color: transparent;
+}
+
+.button:hover
+{
+    border-width:2px 2px 2px 2px ;
+    border-color: white;
+    color:white;
+    background-color:  rgb(63,94,251);
+
+}
+
+.boxShadow
+{
+        box-shadow: 14px 23px 45px 9px rgba(0,0,0,0.66);
+        -webkit-box-shadow: 14px 23px 45px 9px rgba(0,0,0,0.66);
+        -moz-box-shadow: 14px 23px 45px 9px rgba(0,0,0,0.66);
+}
+.trans
+{
+    background-color: transparent;
+}
+
+.text
+{
+    color: rgb(63,94,251);
+}
+.fileInput
+{
+    box-shadow: 0px 2px 13px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:25px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #1570cd;
+    margin-left: 50px ;
+}
+.fileInput:hover
+{
+    background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+
+.fileInput:active {
+	position:relative;
+	top:1px;
+}
+
+.download {
+	box-shadow: 0px 2px 6px -1px #3dc21b;
+	background-color:#44c767;
+	border-radius:20px;
+	border:1px solid #18ab29;
+	display: inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:10px 21px;
+	text-decoration:none;
+}
+.download:hover {
+	background-color:#5cbf2a;
+}
+.download:active {
+	position:relative;
+	top:1px;
+}
+
+.delete {
+	box-shadow: 0px 2px 6px -1px #c21b1b;
+	background-color:#c74444;
+	border-radius:20px;
+	border:1px solid #ab1818;
+	display: inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:10px 21px;
+	text-decoration:none;
+}
+.delete:hover {
+	background-color:#bf2a2a;
+}
+.delete:active {
+	position:relative;
+	top:1px;
+}
+
+
